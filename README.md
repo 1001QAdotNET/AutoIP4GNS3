@@ -26,6 +26,9 @@ BASELOOPIP="192.168.1.0/255.255.255.0"          the IP range used for loopbacks
 SUBNETMASKBITS=30**                             subnet mask used for submnetting the BASEIP range  
 ```  
 **Save your configurations manualy or add a line to the script just before the lines that are closing the connction**
+
+####Problems
+The script is in its infancy and I am sure that my lab work will force me to improve the script. For now please keep in mind that it was tested on topologies with Cisco routers only. As long as your appliance is listed on the Exscript protocol drivers http://knipknap.github.io/exscript/api/Exscript.protocols-module.html the script should work fine (make sure you have the correct template settings for interface names) 
 Report here any problems or suggestions. I will improve the code as the time becomes available.    
   
 Have fun.   
