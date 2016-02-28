@@ -3,16 +3,16 @@ While waiting for AutoNetKit to be added to GNS3 and UNL I decided to create thi
 
 This will be more of a POC (proof of concept) than sound code. Due to limited time resource I do not plan to deal with errors or make the code extremely user friendly. If you feel like contributing to this please feel free to branch the code, make the changes and I will gladly add your work to this. 
 
-How to use it:  
+####How to use it:  
 
-Install Python 2.7  
-Install Exscript (https://github.com/knipknap/exscript/wiki/Installation-Guide)  
-Create your topology in GNS3  
-Save your topology  
-Start your devices, make sure that they are up an drunning before attempting to run the script  
-The script and the topology file must be in the same folder.   
-  -if you want to work with multiple topologies then copy the topology files where the script is  
-  -if you modify the topology file quite often then copy the script in folder where the .gns3 project file is  
+1. Install Python 2.7  
+2. Install Exscript (https://github.com/knipknap/exscript/wiki/Installation-Guide)  
+3. Create your topology in GNS3  
+4. Save your topology  
+5. Start your devices, make sure that they are up an drunning before attempting to run the script  
+6. The script and the topology file must be in the same folder.   
+  ..*-if you want to work with multiple topologies then copy the topology files where the script is  
+  ..*-if you modify the topology file quite often then copy the script in folder where the .gns3 project file is  
 
 For Qemu appliances make sure you release the console, the script uses the console to configure the devices. For other appliances 
 Make sure yor templates use network interface name formats consitent with what the appliance uses for interface names (ex: GigabitEthernet0/{0})  
