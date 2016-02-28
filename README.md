@@ -20,10 +20,10 @@ Make sure yor templates use network interface name formats consitent with what t
 Before you run the script you need at least to indicate which file you want the script to work with.  
 Please change the lines below as per your needs:  
 ```
-**TOPOLOGYFILENALE="AutoIP4GNS3-IOS.gns3"**          the name of the topology file  (this is a must, ou have to change it)  
-**BASEIP="10.0.0.0/255.255.255.0"**                  the IP range that will be subnetted   
-**BASELOOPIP="192.168.1.0/255.255.255.0"**           the IP range used for loopbacks  
-**SUBNETMASKBITS=30**                                subnet mask used for submnetting the BASEIP range  
+TOPOLOGYFILENALE="AutoIP4GNS3-IOS.gns3"         the name of the topology file  (this is a must, ou have to change it)  
+BASEIP="10.0.0.0/255.255.255.0"                 the IP range that will be subnetted   
+BASELOOPIP="192.168.1.0/255.255.255.0"          the IP range used for loopbacks  
+SUBNETMASKBITS=30**                             subnet mask used for submnetting the BASEIP range  
 ```  
 Report here any problems or suggestions. I will improve the code as the time becomes available.    
   
