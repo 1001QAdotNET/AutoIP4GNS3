@@ -3,10 +3,10 @@ While waiting for AutoNetKit to be added to GNS3 and UNL I decided to create thi
 
 This will be more of a POC (proof of concept) than sound code. Due to limited time resource I do not plan to deal with errors or make the code extremely user friendly. If you feel like contributing to this please feel free to branch the code, make the changes and I will gladly add your work to this. 
 
-How to use it:
+How to use it:  
 
-Install Python 2.7
-Install Exscript (https://github.com/knipknap/exscript/wiki/Installation-Guide)
+Install Python 2.7  
+Install Exscript (https://github.com/knipknap/exscript/wiki/Installation-Guide)  
 Create your topology in GNS3
 Save your topology
 Start your devices, make sure that they are up an drunning before attempting to run the script
