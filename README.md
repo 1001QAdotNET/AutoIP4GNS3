@@ -1,7 +1,7 @@
 ### AutoIP4GNS3
 While waiting for AutoNetKit to be added to GNS3 and UNL I decided to create this quick and dirty project to help me automate the basic configs for my labs
 
-This will be more of a POC (proof of concept) than sound code. Due to limited time resource I do not plan to deal with errors or make the code extremely user friendly. If you feel like contributing to this please feel free to branch the code, make the changes and I will gladly add your work to this. 
+This will be more of a POC (proof of concept) than sound code but as is it will save you a lot of time. Due to limited time resource I do not plan to deal with errors or make the code extremely user friendly. If you feel like contributing to this please feel free to branch the code, make the changes and I will gladly add your work to this. 
 
 ####How to use it:  
 
@@ -20,10 +20,10 @@ Make sure yor templates use network interface name formats consitent with what t
 Before you run the script you need at least to indicate which file you want the script to work with.  
 Please change the lines below as per your needs:  
 ```
-TOPOLOGYFILENALE="AutoIP4GNS3-IOS.gns3"         the name of the topology file  (this is a must, ou have to change it)  
+TOPOLOGYFILENALE="AutoIP4GNS3-IOS.gns3"         the name of the topology file  (this is a must, you have to change it)  
 BASEIP="10.0.0.0/255.255.255.0"                 the IP range that will be subnetted   
 BASELOOPIP="192.168.1.0/255.255.255.0"          the IP range used for loopbacks  
-SUBNETMASKBITS=30**                             subnet mask used for submnetting the BASEIP range  
+SUBNETMASKBITS=30                               subnet mask used for submnetting the BASEIP range  
 ```  
 **Save your configurations manualy or add a line to the script just before the lines that are closing the connction**
 
