@@ -6,7 +6,7 @@ This will be more of a POC (proof of concept) than sound code. Due to limited ti
 ####How to use it:  
 
 1. Install Python 2.7  
-2. Install Exscript (https://github.com/knipknap/exscript/wiki/Installation-Guide)  
+2. Install the exscript, json,pprint, netaddr modules
 3. Create your topology in GNS3  
 4. Save your topology  
 5. Start your devices, make sure that they are up an drunning before attempting to run the script  
