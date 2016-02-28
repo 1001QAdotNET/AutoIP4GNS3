@@ -21,7 +21,6 @@ Before you run the script you need at least to indicate which file you want the 
 Please change the lines below as per your needs:  
 
 <code>TOPOLOGYFILENALE="AutoIP4GNS3-IOS.gns3"           This is the name of the topology file  (this is a must, ou have to change it)  
-  
 BASEIP="10.0.0.0/255.255.255.0"                   This is the IP range that will be subnetted   
 BASELOOPIP="192.168.1.0/255.255.255.0"            This is the IP range used for loopbacks  
 SUBNETMASKBITS=30                                 This is where you configure subnet mask used for submnetting the BASEIP range  
