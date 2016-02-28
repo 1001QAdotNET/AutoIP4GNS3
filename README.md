@@ -7,7 +7,7 @@ This will be more of a POC (proof of concept) than sound code. Due to limited ti
 
 1. Install Python 2.7  
 2. Install the exscript, json,pprint, netaddr modules
-3. Create your topology in GNS3  
+3. Create your topology in GNS3 (do not configure anything on the devices)  
 4. Save your topology  
 5. Start your devices, make sure that they are up an drunning before attempting to run the script  
 6. The script and the topology file must be in the same folder.   
@@ -25,6 +25,7 @@ BASEIP="10.0.0.0/255.255.255.0"                 the IP range that will be subnet
 BASELOOPIP="192.168.1.0/255.255.255.0"          the IP range used for loopbacks  
 SUBNETMASKBITS=30**                             subnet mask used for submnetting the BASEIP range  
 ```  
+7. Save your configurations manualy or add a line to the script just before the lines that are closing the connction
 Report here any problems or suggestions. I will improve the code as the time becomes available.    
   
 Have fun.   
