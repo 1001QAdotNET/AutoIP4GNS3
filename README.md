@@ -5,7 +5,7 @@ This will be more of a POC (proof of concept) than sound code but as is it will 
 
 ####How to use it:  
 
-1. Install Python 2.7  
+1. Install Python 2.7  (Exscript was not ported yet to Python 3.0) 
 2. Install the exscript, json,pprint, netaddr modules
 3. Create your topology in GNS3 (do not configure anything on the devices)  
 4. Save your topology  
